@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Tower" format=3 uid="uid://bpfj0341im3gs"]
+
+[ext_resource type="Script" uid="uid://ddlusaolck4q2" path="res://scripts/tower.gd" id="1_xjxjc"]
+[ext_resource type="Texture2D" uid="uid://buhy3bdij2x1f" path="res://towers_png/Archer.png" id="2_p62xq"]
+
+[resource]
+script = ExtResource("1_xjxjc")
+tower_id = 1
+tower_name = "Archer Tower"
+tower_texture = ExtResource("2_p62xq")
+metadata/_custom_type_script = "uid://ddlusaolck4q2"

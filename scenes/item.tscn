@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://c710so7so0o1e"]
+
+[ext_resource type="Texture2D" uid="uid://buhy3bdij2x1f" path="res://towers_png/Archer.png" id="1_4gq7n"]
+
+[node name="item" type="TextureRect" unique_id=85130288]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_4gq7n")
+expand_mode = 1
+stretch_mode = 5

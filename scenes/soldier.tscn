@@ -1,0 +1,82 @@
+[gd_scene format=3 uid="uid://besiyhy0aeo5g"]
+
+[ext_resource type="Texture2D" uid="uid://c61sqy6hmuwwt" path="res://units/Pawn_Idle Knife.png" id="1_3ekc7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q2rr1"]
+atlas = ExtResource("1_3ekc7")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2oslh"]
+atlas = ExtResource("1_3ekc7")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x21nm"]
+atlas = ExtResource("1_3ekc7")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hpa1h"]
+atlas = ExtResource("1_3ekc7")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ajv6t"]
+atlas = ExtResource("1_3ekc7")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_50ktg"]
+atlas = ExtResource("1_3ekc7")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8qfth"]
+atlas = ExtResource("1_3ekc7")
+region = Rect2(1152, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8jak6"]
+atlas = ExtResource("1_3ekc7")
+region = Rect2(1344, 0, 192, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kv0so"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q2rr1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2oslh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x21nm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hpa1h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ajv6t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_50ktg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8qfth")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8jak6")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="GDScript" id="GDScript_3ekc7"]
+script/source = "extends AnimatedSprite2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	play(\"idle\")
+"
+
+[node name="soldier" type="AnimatedSprite2D" unique_id=708162289]
+sprite_frames = SubResource("SpriteFrames_kv0so")
+animation = &"idle"
+frame_progress = 0.44129476
+script = SubResource("GDScript_3ekc7")

@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://34y708hqy2d2"]
+
+[ext_resource type="Script" uid="uid://clncj57irn8jh" path="res://scripts/tower_tile_data.gd" id="1_f0mvp"]
+
+[node name="tower_tile_data" type="Node2D" unique_id=732303739]
+script = ExtResource("1_f0mvp")
+
+[node name="Preview" type="Sprite2D" parent="." unique_id=2024831961]
+modulate = Color(0, 1, 0, 0.49803922)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=2017921726]

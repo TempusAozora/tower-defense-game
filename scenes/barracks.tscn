@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://gfptlk1dll8f"]
+
+[ext_resource type="Texture2D" uid="uid://dg6doyqqmd0d6" path="res://towers_png/Barracks.png" id="1_a2mic"]
+[ext_resource type="PackedScene" uid="uid://besiyhy0aeo5g" path="res://scenes/soldier.tscn" id="2_lery3"]
+
+[node name="barracks" type="Sprite2D" unique_id=2092915799]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_a2mic")
+
+[node name="soldier" parent="." unique_id=708162289 instance=ExtResource("2_lery3")]
+position = Vector2(-106, 140)
+
+[node name="soldier2" parent="." unique_id=1575141326 instance=ExtResource("2_lery3")]
+position = Vector2(0, 196.00002)
+
+[node name="soldier3" parent="." unique_id=1026431648 instance=ExtResource("2_lery3")]
+position = Vector2(74, 148)
