@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://gfptlk1dll8f"]
 
-[ext_resource type="Texture2D" uid="uid://dg6doyqqmd0d6" path="res://towers_png/Barracks.png" id="1_a2mic"]
+[ext_resource type="Texture2D" uid="uid://dcec5thcp8vik" path="res://Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Buildings/Blue Buildings/Barracks.png" id="1_a2mic"]
 [ext_resource type="PackedScene" uid="uid://besiyhy0aeo5g" path="res://scenes/soldier.tscn" id="2_lery3"]
 
 [node name="barracks" type="Sprite2D" unique_id=2092915799]

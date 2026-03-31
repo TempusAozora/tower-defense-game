@@ -1,10 +1,6 @@
 [gd_scene format=4 uid="uid://jys0yt78ljqv"]
 
-<<<<<<< HEAD
-[ext_resource type="Texture2D" uid="uid://e1o70pokorqf" path="res://tilesets/Tilemap_color3.png" id="1_kqs1s"]
-=======
 [ext_resource type="Texture2D" uid="uid://kc52ppo5j1lb" path="res://local_files/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Terrain/Tileset/Tilemap_color3.png" id="1_kqs1s"]
->>>>>>> a48f441b39d9f14a5e8249bde2e7614cfb3175d3
 [ext_resource type="PackedScene" uid="uid://wwst4fnvcwb2" path="res://scenes/archer.tscn" id="2_32lhk"]
 [ext_resource type="PackedScene" uid="uid://gfptlk1dll8f" path="res://scenes/barracks.tscn" id="3_7g83o"]
 [ext_resource type="PackedScene" uid="uid://xydi5y7pkaut" path="res://scenes/hotbar.tscn" id="4_d1c63"]

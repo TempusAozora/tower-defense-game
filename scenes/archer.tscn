@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://wwst4fnvcwb2"]
 
-[ext_resource type="Texture2D" uid="uid://b17aocvt5hetq" path="res://units/Archer_Idle.png" id="1_b0l3x"]
-[ext_resource type="Texture2D" uid="uid://clhm0fjwrlywh" path="res://units/Archer_Run.png" id="2_orquw"]
+[ext_resource type="Texture2D" uid="uid://cdxd41pyx0ba0" path="res://Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Units/Blue Units/Archer/Archer_Idle.png" id="1_b0l3x"]
+[ext_resource type="Texture2D" uid="uid://4fve0xxym3l3" path="res://Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Units/Blue Units/Archer/Archer_Run.png" id="2_orquw"]
 
 [sub_resource type="GDScript" id="GDScript_lik2q"]
 script/source = "extends CharacterBody2D
