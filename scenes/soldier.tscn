@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://besiyhy0aeo5g"]
 
-[ext_resource type="Texture2D" uid="uid://bf1havtbfio2" path="res://Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Units/Blue Units/Pawn/Pawn_Idle Knife.png" id="1_3ekc7"]
+[ext_resource type="Texture2D" uid="uid://c61sqy6hmuwwt" path="res://units/Pawn_Idle Knife.png" id="1_3ekc7"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q2rr1"]
 atlas = ExtResource("1_3ekc7")
